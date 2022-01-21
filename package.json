@@ -4,15 +4,21 @@
   "description": "A dynamic size ring buffer for Typescript/Javascript.",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
+  "files": [
+    "dist/"
+  ],
   "scripts": {
+    "build": "npx tsc -p tsconfig.json && tsc -p tsconfig-cjs.json",
     "test": "npx jest"
   },
   "keywords": [
     "buffer",
     "ring",
-    "circle"
+    "circle",
+    "circular"
   ],
   "author": "NorbK <kozarin@gmail.com>",
+  "repository": "Norbk/ring-buffer",
   "license": "MIT",
   "devDependencies": {
     "@types/jest": "^27.4.0",
