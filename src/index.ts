@@ -30,7 +30,7 @@ class RingBufferWriteError extends RingBufferError {
 
 export class RingBuffer {
 
-  static create<T>(size: number) {
+  static create<T>(size: number = 2) {
     if(size < 2)
       throw new RingBufferError("Minimum size is 2!");
     let buffer: Array<{written: boolean, data: T | undefined}> = new Array(size);
