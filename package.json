@@ -1,5 +1,5 @@
 {
-  "name": "ring-buffer",
+  "name": "dyn-ring-buffer",
   "version": "1.0.0",
   "description": "A dynamic size ring buffer for Typescript/Javascript.",
   "main": "dist/cjs/index.js",

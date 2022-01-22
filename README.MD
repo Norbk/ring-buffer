@@ -1,19 +1,19 @@
 <h1 align="center">
 <img width="200" src="media/logo.svg" alt="Ring Buffer">
 </br>
-ring-buffer
+Dynamic Ring Buffer
 </h1>
 
 A TyepScript/Javascript Dynamic Ring (Circular) Buffer.
 
 ## Install
 ```
-npm install ring-buffer
+npm install dyn-ring-buffer
 ```
 ## Usage
 ### Create a new buffer
 ```js
-import { RingBuffer } from 'ring-buffer';
+import { RingBuffer } from 'dyn-ring-buffer';
 
 // a buffer with the size of 10
 const buffer = RingBuffer.create<String>(10);
